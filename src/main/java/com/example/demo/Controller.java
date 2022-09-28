@@ -7,10 +7,10 @@ public class Controller {
 
     @GetMapping()
     public String chama(){
-        return" ai meu deus";
+        return" ai meu deuss";
     }
     @GetMapping("test/{nome}")
     public String chama2(@PathVariable String nome){
-        return "meu deus meu senho me ajuda por favor" + nome;
+        return "meu deus meu senho me ajuda por favorres" + nome;
     }
 }
